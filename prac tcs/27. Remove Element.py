@@ -5,7 +5,7 @@ for i in range(len(nums)):
     if nums[i]!=val:
         nums[c]=nums[i]
         c=c+1
-print(nums)        
+             
 print(c)
             
 
