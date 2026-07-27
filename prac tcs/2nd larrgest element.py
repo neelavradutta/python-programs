@@ -1,5 +1,6 @@
 #aAAbbbb
 #aA
+
 je=input()
 s=input()
 c=0
