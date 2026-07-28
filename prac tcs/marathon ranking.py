@@ -1,5 +1,4 @@
 R = []
-
 while True:
     x = input()
 
