@@ -14,12 +14,9 @@ while True:
 
     R.append(d)
 
-# Exclude finishers
-R = [i for i in R if i != 42.195]
+a=[]
+for i in range(len(R)):
+    if R[i]<42.195:
+        a.append(R[i])
 
-# Sort in descending order
-R.sort(reverse=True)
-
-# Print top 3 (or fewer)
-print("Highest Distance excluding Finishers:")
-print(R[:3])
+print(sorted(a[-3:])[::-1])
