@@ -1,4 +1,4 @@
-s = "a1c1e1"
+s = "a1c1e1g"
 s1=""
 for i in range(len(s)):
     if s[i].isdigit():
