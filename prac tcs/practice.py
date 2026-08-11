@@ -1,1 +1,2 @@
-print(5^1^6)
+print(bin(10)[2:])
+print(bin(7))
