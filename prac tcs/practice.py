@@ -1,2 +1,2 @@
-a=["0df","6df","4fd"]
-print(sorted(a))
+grid = [[1,2,4],[3,3,1]]
+print(grid[1])
