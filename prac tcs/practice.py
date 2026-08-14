@@ -1,2 +1,6 @@
-grid = [[1,2,4],[3,3,1]]
-print(grid[1])
+a="2130"
+b=[]
+for i in range(len(a)):
+    for j in range(len(a)):
+        b.append(a[i:j])
+print(b)
