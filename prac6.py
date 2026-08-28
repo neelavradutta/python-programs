@@ -1,3 +1,6 @@
-a=[4,4,3]
-a.pop(a.index(max(a)))
-print(a)
+nums=[4]
+nums.pop(nums.index(max(nums)))
+nums.pop(nums.index(min(nums)))
+
+print(nums)
+
