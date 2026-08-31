@@ -1,8 +1,3 @@
-licensePlate = "1s3 PSt"
-licensePlate=licensePlate.lower()
-ch=""
-for i in range(len(licensePlate)):
-    if licensePlate[i].islower()==True:
-        ch=ch+licensePlate[i]
-
-print(ch)
+nums = [4,1,2,3]
+for i in range(0,len(nums),2):
+    print(nums[i])
