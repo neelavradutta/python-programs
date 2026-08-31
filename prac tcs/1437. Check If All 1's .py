@@ -1,5 +1,8 @@
-logs = [[1993,1999],[2000,2010]]
-if 1993 in logs:
-    print(True)
-else:
-    print(False)
+licensePlate = "1s3 PSt"
+licensePlate=licensePlate.lower()
+ch=""
+for i in range(len(licensePlate)):
+    if licensePlate[i].islower()==True:
+        ch=ch+licensePlate[i]
+
+print(ch)
