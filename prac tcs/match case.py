@@ -1,8 +1,8 @@
-n=int(input())
-match n%3:
-    case 1:
+n=input()
+match n[2]:
+    case "s":
         print("hello")
-    case 0:
+    case "a":
         print("hi")
     case _:
         print("bye")
