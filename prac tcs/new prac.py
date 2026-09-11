@@ -1,3 +1,6 @@
-a=[1,2,5,6]
-a=a.remove([2,5])
-print(a)
+n=192
+ch=""
+for i in range(1,4):
+    ch=ch+str(n*i)
+
+print(sorted(ch))
