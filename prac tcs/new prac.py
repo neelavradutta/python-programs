@@ -1,2 +1,2 @@
-import math
-print(math.gcd(4,5))
+a=["B","W","B"]
+print(a[0])
