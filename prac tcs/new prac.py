@@ -1,2 +1,5 @@
-a=["B","W","B"]
-print(a[0])
+import math
+n=str(int(math.sqrt(16)))
+
+if n.isdecimal()==True:
+    print("yes")
