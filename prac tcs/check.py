@@ -1,4 +1,5 @@
-c=[1,0]
-if c[0]==c[1]==1:
-    print("true")
+from math import gcd
+
+
+print(gcd(2,8))
 
