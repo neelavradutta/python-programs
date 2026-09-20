@@ -1,7 +1,4 @@
-s=["this","is","a","sentence"]
-a=(" "*3).join(s)
-print(a)
-text = "  this   is  a sentence "
-text=list(text)
-text.remove(" ")
-print(text)
+for i in range(5):
+    for j in range(5):
+        print("*",end=" ")
+    print()
