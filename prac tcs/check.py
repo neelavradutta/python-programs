@@ -1,3 +1,3 @@
 import math
-a=8
+a=3
 print(math.pow(a,3))
