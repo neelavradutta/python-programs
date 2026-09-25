@@ -1,14 +1,5 @@
-n=5
-for i in range(n):
-
-    for j in range(i+1):
-        print(" ",end=" ")
-    
-    for j in range(i,n-1):
-        print("*",end=" ")
-    
-    for j in range(i,n):
-        print("*",end=" ")
-
-    print()
-
+s = "abcd"
+d=s[0]
+s=s.replace(s[0],s[2])
+s=s.replace(s[2],d)
+print(s)
