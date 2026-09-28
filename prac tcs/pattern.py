@@ -1,7 +1,6 @@
-nums = [1,2,10,5,7]
-for i in range(len(nums)-1):
-    temp = nums[:i] + nums[i+1:]
-    print(temp)
-
-temp = nums[:-1]
-print(temp)
+temp=word.count(word[0])
+for i in range(len(w)):
+    if temp!=word.count(w[i]):
+        od=od+1
+    else:
+        ev=ev+1
