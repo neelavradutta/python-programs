@@ -1,6 +1,10 @@
-temp=word.count(word[0])
-for i in range(len(w)):
-    if temp!=word.count(w[i]):
-        od=od+1
+nums = [1, 2, 2, 3, 1, 4, 2]
+dict={}
+for i in range(len(nums)):
+    if nums[i] in dict:
+        dict[nums[i]]=dict[nums[i]]+1
     else:
-        ev=ev+1
+        dict[nums[i]]=1
+    
+
+print(dict)
