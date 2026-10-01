@@ -7,9 +7,13 @@ for i in range(len(nums)):
     else:
         d[nums[i]]=1
 
+a=[]
 for i in range(len(nums)):
-    if d[nums[i]]==max(d.values()):
-        print(nums[i])
+    if d[nums[i]]>1:
+        a.append(nums[i])
         break
+
+print(a)
+
 
 
