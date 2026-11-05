@@ -1,3 +1,14 @@
-s = [23,55,42,21]
-for i in range(0,len(s),2):
-    print(s[i])
+n=10
+a=0
+b=1
+s=[a,b]
+while n>=a+b:
+    c=a+b
+    s.append(c)
+    if s==target:
+        print(True)
+    a=b
+    b=c
+    
+
+print(s)
